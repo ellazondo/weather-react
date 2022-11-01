@@ -21,7 +21,7 @@ function App() {
           {" "}
           <img
             // eslint-disable-next-line
-            src="http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png"
+            src={`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`}
             alt="weather img"
             width="42"
           />
