@@ -68,6 +68,10 @@ function App() {
           />
           <input type="submit" value="Serach" />
         </form>
+        <small>
+          View sorce code on{" "}
+          <a href="https://github.com/ellazondo/weather-react">github</a>
+        </small>
       </div>
     );
   }
